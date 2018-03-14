@@ -8,8 +8,8 @@ def square_array(array)
   array.collect {|x| x*x}
 end
 
-def square_with_collect(array)
-   array.collect {|x| x*x}
-end
-
-square_with_collect
+# def square_with_collect(array)
+#    array.collect {|x| x*x}
+# end
+#
+# square_with_collect
