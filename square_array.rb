@@ -6,3 +6,9 @@ def square_array(array)
   end
   squared_array
 end
+
+def square_with_collect(array)
+   array.collect {|x| x*x}
+end
+
+puts square_with_collect
