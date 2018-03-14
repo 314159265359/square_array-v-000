@@ -11,4 +11,4 @@ def square_with_collect(array)
    array.collect {|x| x*x}
 end
 
-puts square_with_collect
+square_with_collect
